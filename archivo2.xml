@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<purchaseOrder orderNumber="12345" status="pending" urgency="high" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="purchaseOrderSchema.xsd">
+    <customer>
+        <name>John Doe</name>
+        <email>john.doe@example.com</email>
+        <phone>123-456-7890</phone>
+    </customer>
+    <address type="shipping">
+        <recipient>Jane Smith</recipient>
+        <street>123 Main St</street>
+        <city>Anytown</city>
+        <zip>12345</zip>
+    </address>
+    <address type="billing">
+        <recipient>John Doe</recipient>
+        <street>456 Oak St</street>
+        <city>Othercity</city>
+        <zip>54321</zip>
+    </address>
+    <comment>Urgent delivery required</comment>
+    <items>
+        <item>
+            <product>Widget</product>
+            <quantity>5</quantity>
+            <price>10.99</price>
+        </item>
+        <item>
+            <product>Gizmo</product>
+            <quantity>3</quantity>
+            <price>7.99</price>
+        </item>
+    </items>
+</purchaseOrder>
